@@ -12,14 +12,14 @@ During the second stage of the machine learning process the "RandomOverSampler" 
 
 ## Results
 
-Before using the "RandomOverSampler" function the results were as follows:
+#### Before using the "RandomOverSampler" function the results were as follows:
 
 - According to the the balanced_accuracy score, the logistic regression model was 95% accurate at predicting the healthy vs high-risk loan labels. 
 - According to the classification report, the results were as follows:
     - Precision for the healthy loans was 1.00, the recall was 0.99, and the f1-score was 1.00, meaning that the model is pretty accurate at predicting healthy instances.
     - Precision for high-risk loans was 0.85, the recall was 0.91, and the f1-score was 0.88, meaning that the model not very accurate at predicting high-risk instances.
 
-After using the "RandomOverSampler" function the results were as follows:
+#### After using the "RandomOverSampler" function the results were as follows:
 
 - According to the the balanced_accuracy score, the logistic regression model was 99% accurate at predicting the healthy vs high-risk loan labels. 
 - According to the classification report, the results were as follows:
